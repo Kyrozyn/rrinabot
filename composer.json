@@ -1,0 +1,12 @@
+{
+    "name": "andreas/ririnabot",
+    "description": "stable ver waifuku",
+    "type": "project",
+    "require": {
+        "php": ">=5.6",
+        "slim/slim": ">=3.8",
+        "linecorp/line-bot-sdk": ">=2.1",
+        "catfan/Medoo": "^1.4",
+        "cloudinary/cloudinary_php": "dev-master"
+    }
+}
