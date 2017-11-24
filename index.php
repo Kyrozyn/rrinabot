@@ -594,7 +594,7 @@ if(is_array($data['events'])){
             $result - $bot->replyMessage($event['replyToken'], $greetings); 
          }
          else if ($eventType == 'message' AND $messageType == 'image' /*AND $hasadmin == $userId*/){
-            $uril = "https://ririnabot.herokuapp.com/index.php/content/".$picId;
+            $uril = "https://backupriribot.herokuapp.com/index.php/content/".$picId;
             $blah = strval($database->get("command_text_img","maka",["userid[=]"=> $userId, "groupid[=]" => $groupId,"uploaded" =>false]));
             if ($blah == '0'){
                 $aa = Cloudinary\Uploader::upload($uril,["public_id" => $picId,"resource_type" => "auto"]);
