@@ -30,21 +30,21 @@ use Cloudinary\Uploader;
 
 include 'settings/setChannel.php';
 $cl = new Cloudinary;
-$randcloud = random_int(0, 1);
-if ($randcloud == 0){
+//$randcloud = random_int(0, 1);
+//if ($randcloud == 0){
 Cloudinary::config(array( 
   "cloud_name" => "ririnabots", 
   "api_key" => "742917597548863", 
   "api_secret" => "bwsyPfpLuFNqCwlrask1BB0brNs",
   "resource_type" => "raw"  
-));}
-else{
+));//}
+/*else{
     Cloudinary::config(array( 
   "cloud_name" => "dkqny9ym1", 
   "api_key" => "633148617174128", 
   "api_secret" => "2EZeqMiSOMPV94E_d6__85OJnVs",
   "resource_type" => "raw"  
-));}
+));}*/
 
 
 $database = new Medoo([
@@ -116,9 +116,9 @@ if(is_array($data['events'])){
                        $result = $bot->replyText($replyToken,"Ok! Keyword berhasil ditambahkan scr global (itu karena kamu super adminku <3)");
                    }
                    if($userMessageArrB[0]== '!delglobal'){
-                       $balas = $database->get("command_text","jika",["jika[=]"=> $userMessageArrB[1], "groupid[=]"=>"0"]);     
-                    if($balas == $userMessageArrB[1]){
-                        $insertAdmin = $database->delete("command_text", ["jika" => $userMessageArrB[1] ]);
+                       $balas = $database->get("command_text","jika",["jika[=]"=> $userMessageArrA[1], "groupid[=]"=>"0"]);
+                    if($balas == $userMessageArrA[1]){
+                        $insertAdmin = $database->delete("command_text", ["jika" => $userMessageArrA[1] ]);
                         $result = $bot->replyText($replyToken,"Ok! Keyword global berhasil dihapus <3");
                     }
                     else{
@@ -239,10 +239,10 @@ if(is_array($data['events'])){
                     //$result = $bot->replyMessage($replyToken, $kirim);
                 }
                 if($userMessageArrB[0]=='!delpic' AND ($hanyaadmin == false OR $userId == $adminGroup)){
-                    $balas = $database->get("command_text_img","jika",["jika[=]"=> $userMessageArrB[1], "groupid[=]"=>$groupId]);     
+                    $balas = $database->get("command_text_img","jika",["jika[=]"=> $userMessageArrA[1], "groupid[=]"=>$groupId]);
                     if($balas == $userMessageArrB[1]){
-                        $urll = $database->get("command_text_img","maka",["jika[=]"=> $userMessageArrB[1], "groupid[=]"=>$groupId]);
-                        $insertAdmin = $database->delete("command_text_img", ["jika" => $userMessageArrB[1], "groupid[=]"=>$groupId ]);
+                        $urll = $database->get("command_text_img","maka",["jika[=]"=> $userMessageArrA[1], "groupid[=]"=>$groupId]);
+                        $insertAdmin = $database->delete("command_text_img", ["jika" => $userMessageArrA[1], "groupid[=]"=>$groupId ]);
                        // $boo = explode('/', $urll);
                         //$booo = explode('.',$boo[7]);
                         $result = $bot->replyText($replyToken,"Ok! Keyword berhasil dihapus");
@@ -598,11 +598,13 @@ if(is_array($data['events'])){
             $blah = strval($database->get("command_text_img","maka",["userid[=]"=> $userId, "groupid[=]" => $groupId,"uploaded" =>false]));
             if ($blah == '0'){
                 $aa = Cloudinary\Uploader::upload($uril,["public_id" => $picId,"resource_type" => "auto"]);
-                $urlPindah = "http://uploads.im/api?upload=".$aa['secure_url'];
-                $content = file_get_contents($urlPindah);
-                $hasils = json_decode($content);
-                $linkkkkk = $url = str_replace( 'http://', 'https://', $hasils->data->img_url );
-                $database->update("command_text_img",["maka" => $linkkkkk,"uploaded" => TRUE],["userid[=]" => $userId, "groupid[=]" => $groupId,"maka[=]"=>"0"]);
+               // $urlPindah = "http://uploads.im/api?upload=".$aa['secure_url'];
+                //$content = file_get_contents($urlPindah);
+                //$hasils = json_decode($content);
+                //$linkkkkk = $url = str_replace( 'http://', 'https://', $hasils->data->img_url );
+                $linkkkkk = "https://res.cloudinary.com/ririnabots/image/upload/v1510399594/".$picId;
+
+                $database->update("command_text_img",["maka" => $aa['secure_url'],"uploaded" => TRUE],["userid[=]" => $userId, "groupid[=]" => $groupId,"maka[=]"=>"0"]);
                 $bot->replyText($replyToken, "OK! Keyword berhasil ditambahkan [".$randcloud."] "/*.$aa['secure_url']*/);
             }
          }
