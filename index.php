@@ -447,7 +447,7 @@ if(is_array($data['events'])){
                 }
 
                 if($userMessage == '!list'){
-                    $url = 'http://adf.ly/18224627/banner/ririnabot.herokuapp.com/list_keyword.php?groupid='.base64_encode($groupId);
+                    $url = 'http://ririnabot.herokuapp.com/list_keyword.php?groupid='.base64_encode($groupId);
                     $atas = new ButtonTemplateBuilder(NULL, "List Keyword", NULL, [
                                 new UriTemplateActionBuilder('Klik disini!', $url),    
                                 ]);
