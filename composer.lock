@@ -71,12 +71,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "fd6a49f1ca585c896f0730ec46bf37967bb454db"
+                "reference": "f3b084d9e5fa67f3a0ecba931cd9da513ddf665b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/fd6a49f1ca585c896f0730ec46bf37967bb454db",
-                "reference": "fd6a49f1ca585c896f0730ec46bf37967bb454db",
+                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/f3b084d9e5fa67f3a0ecba931cd9da513ddf665b",
+                "reference": "f3b084d9e5fa67f3a0ecba931cd9da513ddf665b",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "image management",
                 "sdk"
             ],
-            "time": "2019-03-07T12:15:03+00:00"
+            "time": "2019-04-02T13:08:04+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -414,16 +414,16 @@
         },
         {
             "name": "slim/slim",
-            "version": "3.12.0",
+            "version": "3.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slimphp/Slim.git",
-                "reference": "f4947cc900b6e51cbfda58b9f1247bca2f76f9f0"
+                "reference": "eaee12ef8d0750db62b8c548016d82fb33addb6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/f4947cc900b6e51cbfda58b9f1247bca2f76f9f0",
-                "reference": "f4947cc900b6e51cbfda58b9f1247bca2f76f9f0",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/eaee12ef8d0750db62b8c548016d82fb33addb6b",
+                "reference": "eaee12ef8d0750db62b8c548016d82fb33addb6b",
                 "shasum": ""
             },
             "require": {
@@ -481,7 +481,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2019-01-15T13:21:25+00:00"
+            "time": "2019-04-16T16:47:29+00:00"
         }
     ],
     "packages-dev": [],
