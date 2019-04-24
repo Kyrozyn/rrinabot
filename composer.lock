@@ -150,16 +150,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "3.8.0",
+            "version": "3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "b888440c52b7cb876ee536545c74345d83d92c76"
+                "reference": "e859b4ca184894e8b770a7fe68e15887273793f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/b888440c52b7cb876ee536545c74345d83d92c76",
-                "reference": "b888440c52b7cb876ee536545c74345d83d92c76",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/e859b4ca184894e8b770a7fe68e15887273793f0",
+                "reference": "e859b4ca184894e8b770a7fe68e15887273793f0",
                 "shasum": ""
             },
             "require": {
@@ -215,7 +215,7 @@
                 "line",
                 "sdk"
             ],
-            "time": "2019-04-16T02:50:01+00:00"
+            "time": "2019-04-23T09:53:20+00:00"
         },
         {
             "name": "nikic/fast-route",
