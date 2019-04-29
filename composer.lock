@@ -71,12 +71,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "f3b084d9e5fa67f3a0ecba931cd9da513ddf665b"
+                "reference": "0047d3d2a97cd00c0e41fa3f8f59cab904e00bcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/f3b084d9e5fa67f3a0ecba931cd9da513ddf665b",
-                "reference": "f3b084d9e5fa67f3a0ecba931cd9da513ddf665b",
+                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/0047d3d2a97cd00c0e41fa3f8f59cab904e00bcd",
+                "reference": "0047d3d2a97cd00c0e41fa3f8f59cab904e00bcd",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "image management",
                 "sdk"
             ],
-            "time": "2019-04-02T13:08:04+00:00"
+            "time": "2019-04-28T09:55:52+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -150,16 +150,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "3.8.0",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "b888440c52b7cb876ee536545c74345d83d92c76"
+                "reference": "01ba4d1c6c0c7ec57b5b34ed5bc6ee0d5f88928e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/b888440c52b7cb876ee536545c74345d83d92c76",
-                "reference": "b888440c52b7cb876ee536545c74345d83d92c76",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/01ba4d1c6c0c7ec57b5b34ed5bc6ee0d5f88928e",
+                "reference": "01ba4d1c6c0c7ec57b5b34ed5bc6ee0d5f88928e",
                 "shasum": ""
             },
             "require": {
@@ -215,7 +215,7 @@
                 "line",
                 "sdk"
             ],
-            "time": "2019-04-16T02:50:01+00:00"
+            "time": "2019-04-29T01:42:14+00:00"
         },
         {
             "name": "nikic/fast-route",
