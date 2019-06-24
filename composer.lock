@@ -71,12 +71,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "0047d3d2a97cd00c0e41fa3f8f59cab904e00bcd"
+                "reference": "63ed8beb3989e44eb88b695b581d63e534c0789d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/0047d3d2a97cd00c0e41fa3f8f59cab904e00bcd",
-                "reference": "0047d3d2a97cd00c0e41fa3f8f59cab904e00bcd",
+                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/63ed8beb3989e44eb88b695b581d63e534c0789d",
+                "reference": "63ed8beb3989e44eb88b695b581d63e534c0789d",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "image management",
                 "sdk"
             ],
-            "time": "2019-04-28T09:55:52+00:00"
+            "time": "2019-06-19T11:15:04+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -150,16 +150,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "3.10.0",
+            "version": "3.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "01ba4d1c6c0c7ec57b5b34ed5bc6ee0d5f88928e"
+                "reference": "14ef0323e1979eb92abfc77db6a8824f69c9e085"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/01ba4d1c6c0c7ec57b5b34ed5bc6ee0d5f88928e",
-                "reference": "01ba4d1c6c0c7ec57b5b34ed5bc6ee0d5f88928e",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/14ef0323e1979eb92abfc77db6a8824f69c9e085",
+                "reference": "14ef0323e1979eb92abfc77db6a8824f69c9e085",
                 "shasum": ""
             },
             "require": {
@@ -206,6 +206,11 @@
                     "name": "Satoshi Shibuya",
                     "email": "satosby@gmail.com",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "Shunsuke Mori",
+                    "email": "morimorim7180@gmail.com",
+                    "role": "Maintainer"
                 }
             ],
             "description": "SDK of the LINE BOT API for PHP",
@@ -215,7 +220,7 @@
                 "line",
                 "sdk"
             ],
-            "time": "2019-04-29T01:42:14+00:00"
+            "time": "2019-06-21T06:22:51+00:00"
         },
         {
             "name": "nikic/fast-route",
