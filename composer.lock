@@ -163,23 +163,23 @@
             "authors": [
                 {
                     "name": "moznion",
-                    "role": "Retired",
-                    "email": "moznion@gmail.com"
+                    "email": "moznion@gmail.com",
+                    "role": "Retired"
                 },
                 {
                     "name": "Satoru Yoshihara",
-                    "role": "Maintainer",
-                    "email": "vaduz0@gmail.com"
+                    "email": "vaduz0@gmail.com",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "Satoshi Shibuya",
-                    "role": "Maintainer",
-                    "email": "satosby@gmail.com"
+                    "email": "satosby@gmail.com",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "Shunsuke Mori",
-                    "role": "Maintainer",
-                    "email": "morimorim7180@gmail.com"
+                    "email": "morimorim7180@gmail.com",
+                    "role": "Maintainer"
                 }
             ],
             "description": "SDK of the LINE BOT API for PHP",
@@ -496,16 +496,16 @@
         },
         {
             "name": "slim/slim",
-            "version": "4.2.0",
+            "version": "4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slimphp/Slim.git",
-                "reference": "378abc6f8fe43dc7a73537259da728cb27a64332"
+                "reference": "26020e9a099e69b0b12918115894f7106364dcb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/378abc6f8fe43dc7a73537259da728cb27a64332",
-                "reference": "378abc6f8fe43dc7a73537259da728cb27a64332",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/26020e9a099e69b0b12918115894f7106364dcb7",
+                "reference": "26020e9a099e69b0b12918115894f7106364dcb7",
                 "shasum": ""
             },
             "require": {
@@ -576,14 +576,14 @@
                 }
             ],
             "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
-            "homepage": "https://slimframework.com",
+            "homepage": "https://www.slimframework.com",
             "keywords": [
                 "api",
                 "framework",
                 "micro",
                 "router"
             ],
-            "time": "2019-08-20T19:11:25+00:00"
+            "time": "2019-10-05T21:24:58+00:00"
         }
     ],
     "packages-dev": [],
