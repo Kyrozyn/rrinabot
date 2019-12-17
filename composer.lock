@@ -119,16 +119,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "3.13.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "d6a951a1ea5294c98b11586feb940ea0e2c4f5ab"
+                "reference": "189c4adc7f7e64592146ae3a285633019ef4673a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/d6a951a1ea5294c98b11586feb940ea0e2c4f5ab",
-                "reference": "d6a951a1ea5294c98b11586feb940ea0e2c4f5ab",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/189c4adc7f7e64592146ae3a285633019ef4673a",
+                "reference": "189c4adc7f7e64592146ae3a285633019ef4673a",
                 "shasum": ""
             },
             "require": {
@@ -142,9 +142,7 @@
                 "indigophp/hash-compat": "~1.1.0",
                 "phpmd/phpmd": "~2.4",
                 "phpunit/phpunit": "^4.8.24||^5||^6",
-                "squizlabs/php_codesniffer": "~2.6||^3",
-                "symfony/config": "^3.3",
-                "symfony/dependency-injection": "^3.3"
+                "squizlabs/php_codesniffer": "~2.6||^3"
             },
             "suggest": {
                 "apigen/apigen": "Install with roave/better-reflection:dev-master to generate docs",
@@ -163,23 +161,23 @@
             "authors": [
                 {
                     "name": "moznion",
-                    "role": "Retired",
-                    "email": "moznion@gmail.com"
+                    "email": "moznion@gmail.com",
+                    "role": "Retired"
                 },
                 {
                     "name": "Satoru Yoshihara",
-                    "role": "Maintainer",
-                    "email": "vaduz0@gmail.com"
+                    "email": "vaduz0@gmail.com",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "Satoshi Shibuya",
-                    "role": "Maintainer",
-                    "email": "satosby@gmail.com"
+                    "email": "satosby@gmail.com",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "Shunsuke Mori",
-                    "role": "Maintainer",
-                    "email": "morimorim7180@gmail.com"
+                    "email": "morimorim7180@gmail.com",
+                    "role": "Maintainer"
                 }
             ],
             "description": "SDK of the LINE BOT API for PHP",
@@ -189,7 +187,7 @@
                 "line",
                 "sdk"
             ],
-            "time": "2019-07-25T01:20:05+00:00"
+            "time": "2019-12-17T03:21:15+00:00"
         },
         {
             "name": "nikic/fast-route",
